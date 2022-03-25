@@ -44,3 +44,10 @@ function calc_scholarship(student_array) {
     console.log(studentsScholarship)
 }
 calc_scholarship(students)
+
+//part 4
+function darkmode(element){
+    const divdarktheme = document.querySelector(element)
+    divdarktheme.classList.add("dark-theme")
+}
+darkmode('.light-theme')
